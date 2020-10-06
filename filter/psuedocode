@@ -1,0 +1,10 @@
+blur-
+
+make a for loop that iterate everything from [0][0] to [height][width]
+make a inner nested for loop that iterate everything from [i-1][j-1] to [i+1][j+1]
+add number together and averaged
+(only add in the condition that 0 >= i > height && 0 >= j > width, update numbers counter)
+assign number to temp array
+
+assign each element of image array with values of temp array
+

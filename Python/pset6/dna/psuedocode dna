@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Sep 13 09:49:01 2020
+
+@author: Calvin
+"""
+
+import 
+
+#use csv module, with reader and DictReader
+#sys module gives access to sys.argv for command-line arguments
+#read a text file f using open(filename), you can read its content
+# using f.read()
+
+#len(s) get you length of string s, s[i:j] takes the string s,
+# returns the substring with all chars
+#from ith char up to (but not including) jth
+
+# open CSV file and DNA seq, read contents into memory
+
+# For each STR, compute the longest run of consecutive repeats in the DNA seq
+
+# Compare the STR counts against each row in the CSV file
+
+#1. opening files
+
+
+1. Read file
+2. Extract string from header and search for sequence
+    find_max
+    
+main()
+    open CSV file 
+    
+    
+        
+find_max
+    search from 0 to range of length(string)
+        max = 0
+        search from 0 to range of length(pattern)
+            if DNA[i:j] = pattern
+            temp = 0
+            temp += 1
+            update i and j, both + length(pattern)
+        if temp > max
+        temp = max
+        
+    return max
+            
+            
+            
+    

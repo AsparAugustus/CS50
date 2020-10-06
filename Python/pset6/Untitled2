@@ -1,0 +1,12 @@
+not_valid_input = True
+while not_valid_input == True:
+    height = input("Enter the height of pyramid: ")
+    if RepresentsInt(height) == False:
+        invalid_input_prompt()
+        continue
+    elif int(height) not in range(1, 7):
+        invalid_input_prompt()
+        continue
+    else:
+        height = int(height)
+        not_valid_input = False

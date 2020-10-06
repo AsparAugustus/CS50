@@ -1,0 +1,11 @@
+open memory card
+repeat until end of card
+    read 512 bytes into a buffer
+    if start of new JPEG
+        if first JPEG
+            write to file 
+        Else
+            continious write to file
+        
+    Else
+        If already found JPEG
